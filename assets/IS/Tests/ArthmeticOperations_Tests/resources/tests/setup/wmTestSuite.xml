@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="ArthimeticOperationTestSuite">
+    <webMethodsTestCase name="ProductSucess">
+        <service folder="ArthmeticOperations" name="multiplication">
+            <input>
+                <file filename="resources/tests/data/MultiplicationSucessInput"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/MultiplicationSucessOutput"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
