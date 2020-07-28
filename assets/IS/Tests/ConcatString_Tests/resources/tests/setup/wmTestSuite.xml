@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="ConcatStrings_Tests">
+    <webMethodsTestCase name="ConcatStringSuccess">
+        <service folder="ConcatStrings" name="concatTwoStrings">
+            <input>
+                <file filename="resources/tests/data/ConcatStringSuccessInputs"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/ConcatStringSuccessOutput"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="ConcatStringFailure">
+        <service folder="ConcatStrings" name="concatTwoStrings">
+            <input>
+                <file filename="resources/tests/data/ConcatStringFailureInputs"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/ConcatStringFailureOutput"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
