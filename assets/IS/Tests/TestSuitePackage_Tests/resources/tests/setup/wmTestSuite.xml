@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="StrinInputConcatTestCases">
+    <webMethodsTestCase name="StringConcatSuccess">
+        <service folder="TestSuitePackage" name="concatStringInput">
+            <input>
+                <file filename="resources/tests/data/ConcatStringSuccessInput"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/ConcatStringSuccessOutput"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="StringConcatFailure">
+        <service folder="TestSuitePackage" name="concatStringInput">
+            <input>
+                <file filename="resources/tests/data/ConcatStringFailureInput"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/ConcatStringFailureOutput"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="StringConcatSuccessInputString1Empty">
+        <service folder="TestSuitePackage" name="concatStringInput">
+            <input>
+                <file filename="resources/tests/data/ConcatStringSuccessInputString1Empty"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/ConcatStringSuccessOutputofString1Empty"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="StringConcatSuccessInputString2Empty">
+        <service folder="TestSuitePackage" name="concatStringInput">
+            <input>
+                <file filename="resources/tests/data/ConcatStringSuccessInputString2Empty"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/ConcatStringSuccessOutputofString2Empty"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
