@@ -10,14 +10,4 @@
             </expected>
         </service>
     </webMethodsTestCase>
-    <webMethodsTestCase name="ProductFailure">
-        <service folder="ArthmeticOperations" name="multiplication">
-            <input>
-                <file filename="C:/Users/abinash.pradhan/workspace103/ArthmeticOperations_Tests/resources/tests/data/MultiplicationFailureInput"/>
-            </input>
-            <expected>
-                <file filename="C:/Users/abinash.pradhan/workspace103/ArthmeticOperations_Tests/resources/tests/data/MultiplicationFailureOutput"/>
-            </expected>
-        </service>
-    </webMethodsTestCase>
 </webMethodsTestSuite>
